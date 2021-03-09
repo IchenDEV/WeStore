@@ -1,0 +1,22 @@
+{
+  "name": "westore",
+  "version": "1.0.0",
+  "description": "a fast store lib for weapp",
+  "main": "/src/index.js",
+  "miniprogram": "dist",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "idevlab",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0"
+  }
+}
